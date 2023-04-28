@@ -1,0 +1,60 @@
+/* Define a dark color scheme */
+:root {
+	--primary-color: #1f2937; /* Dark blue-gray */
+	--secondary-color: #4b5563; /* Mid-tone gray */
+	--accent-color: #fbbf24; /* Yellow */
+	--text-color: #f3f4f6; /* White */
+	--background-color: #1f2937; /* Dark blue-gray */
+  }
+  
+  /* Apply the color scheme to the body */
+  body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-size: 5em;
+  }
+  
+  /* Style the headings */
+  h1, h2, h3, h4, h5, h6 {
+	color: var(--text-color);
+  }
+  
+  /* Style the links */
+  a {
+	color: var(--accent-color);
+  }
+  
+  /* Style the buttons */
+  button {
+	background-color: var(--accent-color);
+	color: var(--text-color);
+  }
+  
+  /* Style the form elements */
+  input, select {
+	background-color: var(--secondary-color);
+	color: var(--text-color);
+  }
+  
+  /* Style the table */
+  table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid var(--secondary-color);
+  }
+  
+  th {
+	background-color: var(--primary-color);
+	color: var(--text-color);
+  }
+  
+  /* Add custom CSS here */
+input{
+	background-color: #333 ;
+  	color: #ddd ;
+}  
